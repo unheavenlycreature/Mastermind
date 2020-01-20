@@ -2,7 +2,7 @@
 
 # Base class for all CodeMakers.
 class CodeMaker
-  VALID_COLORS = %i[R G B Y O V].freeze
+  VALID_COLORS = %i[A B C D E F].freeze
   def initialize(name)
     @name = name
   end
